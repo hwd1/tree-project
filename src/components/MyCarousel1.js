@@ -8,8 +8,6 @@ import img3 from "../images/icon3.jpg";
 import img4 from "../images/icon4.jpg";
 
 const Container = styled.div`
-  width: 100%;
-  height: 80vh;
   .carousel {
     width: 100%;
     height: 80vh;
@@ -25,6 +23,24 @@ const Container = styled.div`
   }
   .carousel-indicators li {
     background-color: #000;
+  }
+  @media only screen and (max-width: 1200px) {
+    .carousel,
+    .carousel-item {
+      height: 65vh;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .carousel,
+    .carousel-item {
+      height: 50vh;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .carousel,
+    .carousel-item {
+      height: 35vh;
+    }
   }
 `;
 

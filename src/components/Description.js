@@ -20,14 +20,13 @@ const Container = styled.div`
     font-size: 16px;
     font-weight: 600;
     text-align: justify;
-    line-height: 0.8em;
   }
   .label {
     text-transform: uppercase;
     color: #009b72;
   }
   .about-text {
-    line-height: 1.4em;
+    padding-right: 2em;
   }
   .single-colmn {
     grid-column-start: 1;
@@ -35,6 +34,16 @@ const Container = styled.div`
   }
   .right {
     padding-left: 40%;
+  }
+  @media only screen and (max-width: 550px) {
+    .right {
+      padding-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .p {
+      font-size: 14px;
+    }
   }
 `;
 function Description() {
