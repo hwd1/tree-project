@@ -15,7 +15,7 @@ module.exports = {
       options: {
         name: `Tree Project`,
         short_name: `Tree Project`,
-        start_url: `/`,
+        start_url: `/az1122401`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
