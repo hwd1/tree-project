@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Tree Project`,
     description: `Tree Project`,
-    author: `Mouaad Boukiaou`
+    author: `Mouaad Boukiaou`,
+    siteUrl: `https://www.example.com/az1122401`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

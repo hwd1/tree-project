@@ -42,6 +42,9 @@ const Container = styled.div`
       height: 35vh;
     }
   }
+  .carousel-indicators {
+    bottom: -3.5em;
+  }
 `;
 
 function MyCarousel1({ setActive }) {
